@@ -1,6 +1,6 @@
 import React from "react";
 import "./SkillsSection.css";
-import Header from "../section-header/Header";
+import Header from "../header/Header";
 import SkillTab from "./Skill-item/SkillTab";
 import ExpressLogo from "../../assets/logos/ExpressLogo";
 import JavaScriptLogo from "../../assets/logos/JavaScriptLogo";

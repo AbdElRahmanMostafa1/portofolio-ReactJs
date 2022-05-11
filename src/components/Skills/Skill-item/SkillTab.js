@@ -1,9 +1,9 @@
 import React from "react";
 import "./SkillTab.css";
 
-const SkillTab = ({ icon, iconClass, logo, name }) => {
+const SkillTab = ({ icon, iconClass, logo, name, ...props }) => {
   return (
-    <span className="skill-tab">
+    <span className={`skill-tab`} {...props}>
       <span></span>
       <span></span>
       <span></span>

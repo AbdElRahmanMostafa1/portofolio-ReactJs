@@ -2,7 +2,7 @@ import "./App.css";
 import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
 import Footer from "./components/footer/Footer";
-import MainSection from "./components/about/MainSection";
+import About from "./components/about/About";
 import Navbar from "./components/Navbar/Navbar";
 import SkillsSection from "./components/Skills/SkillsSection";
 
@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <main className="App">
-        <MainSection />
+        <About />
         <SkillsSection />
         <Experience />
         <Contact />

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../section-header/Header";
+import Header from "../header/Header";
 
 const Contact = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import Header from "../section-header/Header";
+import Header from "../header/Header";
 import ProjectContainer from "./project-container/ProjectContainer";
 
 const Experience = () => {
