@@ -1,0 +1,31 @@
+.main-section-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-section-article div p {
+  margin: 20px;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+}
+
+.Typewriter {
+  display: inline;
+}
+
+@media (max-width: 700px) {
+  .main-section-article {
+    flex-direction: column-reverse;
+  }
+  .main-section-article img {
+    margin-bottom: 10px;
+  }
+  .main-section-article div {
+    text-align: center;
+  }
+  .main-section-article div p {
+    margin: 20px auto;
+    width: 100%;
+  }
+}

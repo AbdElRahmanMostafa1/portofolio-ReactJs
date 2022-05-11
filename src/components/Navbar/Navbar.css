@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: antiquewhite;
+}
+
+.logo {
+  width: 60px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar ul li {
+  display: block;
+  padding: 0 10px;
+}
+
+.navbar ul li a {
+  display: block;
+}
+
+.navbar ul li a .icon {
+  height: 30px;
+}
+
+@media (max-width: 450px) {
+  .logo {
+    width: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    display: none;
+  }
+  .navbar ul li a {
+    font-size: 12px;
+  }
+}

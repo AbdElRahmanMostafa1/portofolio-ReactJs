@@ -1,0 +1,100 @@
+.icon {
+  font-size: 36px;
+}
+
+.skill-tab {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #000;
+  background-color: #faebd7;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 20px;
+  min-width: 200px;
+  transition: 0.3s ease-in-out;
+}
+
+.skill-tab:hover {
+  color: crimson;
+}
+
+.skill-tab span {
+  display: block;
+  position: absolute;
+  background-color: green;
+}
+
+.skill-tab span:nth-child(1) {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+.skill-tab:hover span:nth-child(1) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+
+.skill-tab span:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  width: 5px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+.skill-tab:hover span:nth-child(3) {
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+/*  Second AND Fourth Span   */
+.skill-tab span:nth-child(2) {
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 5px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.skill-tab:hover span:nth-child(2) {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+.skill-tab span:nth-child(4) {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+  border-radius: 5px;
+}
+
+.skill-tab:hover span:nth-child(4) {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+  border-radius: 5px;
+}

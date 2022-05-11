@@ -1,0 +1,37 @@
+.html-class {
+  color: #e44f26;
+}
+
+.css-class {
+  color: #33a9dc;
+}
+
+.react-class {
+  color: #80d8f7;
+  animation: reactRotation infinite 5s linear;
+}
+
+.node-class {
+  color: green;
+}
+
+.npm-class {
+  color: crimson;
+}
+
+.angular-class {
+  color: #c3002f;
+}
+
+.bootstrap-class {
+  color: #7952b3;
+}
+
+@keyframes reactRotation {
+  0% {
+    transform: rotate(0 deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

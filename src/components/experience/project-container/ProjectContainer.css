@@ -1,0 +1,35 @@
+.project-container {
+  display: block;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: 0.3s;
+  border: 5px dotted;
+  margin: 20px 30px;
+}
+
+.project-container:hover {
+  border: 5px solid;
+  box-shadow: 0 0 10px;
+}
+
+.project-container img {
+  width: 100%;
+}
+
+.project-container .title,
+.project-container h4 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.techs-container {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.techs-container span {
+  background-color: white;
+  margin: 5px;
+}
