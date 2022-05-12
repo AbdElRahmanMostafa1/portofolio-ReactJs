@@ -20,7 +20,7 @@ const Experience = () => {
       techs: ["ReactJs", "React Bootstrap"],
     },
     {
-      link: "",
+      link: "https://youtu.be/LEdSqv7wrGY",
       image: "https://portofolio-nu.vercel.app/assets/images/The%20Academy.jpg",
       title: "Teacher Academy",
       techs: ["ReactJs", "React-Bootstrap", "NodeJs", "Express", "MongoDB"],
