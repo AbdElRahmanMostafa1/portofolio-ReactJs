@@ -13,7 +13,7 @@ const About = () => {
       <article className="main-section-article">
         <div style={{ width: "80%", display: "flex", flexDirection: "column" }}>
           <h1>Hello, I'm AbdElRahman Mostafa </h1>
-          <h3 style={{ marginLeft: "10px" }}>
+          <h2 style={{ marginLeft: "10px" }}>
             I'm a{" "}
             {
               <span style={{ color: "green" }}>
@@ -30,7 +30,7 @@ const About = () => {
                 />
               </span>
             }{" "}
-          </h3>
+          </h2>
           <p style={{}}>
             A self-motivated IT professional with huge knowledge and proficiency
             in HTML, CSS, JavaScript, ReactJs, NodeJs, Express (Framework for

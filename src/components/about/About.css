@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.main-section-article h2 {
+  font-size: 1.17em;
+}
+
 .main-section-article div p {
   margin: 20px;
   text-align: justify;
