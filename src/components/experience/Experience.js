@@ -9,6 +9,7 @@ const Experience = () => {
       link: "https://abdo-reataurent-website.netlify.app/",
       image:
         "https://media.istockphoto.com/vectors/grilled-chicken-sticker-label-or-logo-for-fast-food-and-restaurant-vector-id1180732569?k=20&m=1180732569&s=612x612&w=0&h=7PUDlSCZmo767VXNEVl1Uub0gIzwSibgvK7ZJZDLH8k=",
+
       title: "Restaurent Website",
       techs: ["html", "CSS/CSS3", "JS"],
     },
@@ -64,6 +65,7 @@ const Experience = () => {
       link: "https://abdo-expense-tracker.netlify.app/",
       image:
         "https://wsp-blog-images.s3.amazonaws.com/uploads/2021/12/07053220/scale-money-value-stockpack-pixabay-960x642.jpg",
+
       title: "Expense Tracker",
       techs: ["ReactJs", "CSS/CSS3"],
     },
@@ -79,6 +81,7 @@ const Experience = () => {
             image={project.image}
             title={project.title}
             techs={project.techs}
+            imageAlt={`${project.title} image`}
           />
         ))}
       </article>
