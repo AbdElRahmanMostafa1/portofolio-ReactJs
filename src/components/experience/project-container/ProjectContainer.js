@@ -13,7 +13,7 @@ const ProjectContainer = ({ link, image, imageAlt, title, techs }) => {
     >
       <LazyLoadImage
         effect="blur"
-        width={"auto"}
+        width={"250px"}
         height="auto"
         src={image}
         alt={imageAlt}

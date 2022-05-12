@@ -2,45 +2,54 @@ import React from "react";
 import "./SkillsSection.css";
 import Header from "../header/Header";
 import SkillTab from "./Skill-item/SkillTab";
-import ExpressLogo from "../../assets/logos/ExpressLogo";
-import JavaScriptLogo from "../../assets/logos/JavaScriptLogo";
-import MongodbLogo from "../../assets/logos/MongodbLogo";
+import {
+  HTMLLogo,
+  CSSLogo,
+  BootstrapLogo,
+  JavaScriptLogo,
+  ReactLogo,
+  AngularLogo,
+  NodeLogo,
+  ExpressLogo,
+  MongodbLogo,
+  NpmLogo,
+  GitLogo,
+} from "../../assets/logos";
 
 const SkillsSection = () => {
   const allSkills = [
     {
-      icon: "html5",
       iconClass: "html-class",
       name: "HTML/HTML5",
+      logo: <HTMLLogo />,
     },
     {
-      icon: "css3",
       iconClass: "css-class",
       name: "CSS/CSS3",
+      logo: <CSSLogo />,
     },
     {
-      icon: "bootstrap",
       iconClass: "bootstrap-class",
       name: "Bootstrap",
+      logo: <BootstrapLogo />,
     },
     {
-      // icon: "js-square",
       logo: <JavaScriptLogo />,
       iconClass: "",
       name: "JavaScript",
     },
     {
-      icon: "react",
+      logo: <ReactLogo />,
       iconClass: "react-class",
       name: "ReactJs",
     },
     {
-      icon: "angular",
+      logo: <AngularLogo />,
       iconClass: "angular-class",
       name: "Angular",
     },
     {
-      icon: "node",
+      logo: <NodeLogo />,
       iconClass: "node-class",
       name: "NodeJs",
     },
@@ -55,12 +64,12 @@ const SkillsSection = () => {
       name: "MongoDB",
     },
     {
-      icon: "npm",
+      logo: <NpmLogo />,
       iconClass: "npm-class",
       name: "NPM",
     },
     {
-      icon: "git-square",
+      logo: <GitLogo />,
       iconClass: "",
       name: "Git",
     },
@@ -78,8 +87,6 @@ const SkillsSection = () => {
             logo={skill.logo}
           />
         ))}
-        {/* <SkillTab name={"Express"} logo={<ExpressLogo />} /> */}
-        {/* <ExpressLogo /> */}
       </article>
     </section>
   );

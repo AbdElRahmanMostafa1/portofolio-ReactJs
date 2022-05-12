@@ -9,8 +9,8 @@ const Navbar = () => {
     <nav className="navbar">
       <LazyLoadImage
         effect="blur"
-        width="auto"
-        height={"auto"}
+        width="60px"
+        height={"60.16"}
         className="logo"
         src={Logo}
         alt="Abdo Logo"

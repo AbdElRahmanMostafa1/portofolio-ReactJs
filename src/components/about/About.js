@@ -42,7 +42,6 @@ const About = () => {
           </p>
           <a
             href={AbdCV}
-            attributes-list
             download={"AbdElRahmanMostafaCV"}
             style={{
               borderRadius: "5px",
@@ -55,8 +54,8 @@ const About = () => {
         </div>
         <LazyLoadImage
           effect="blur"
-          width={"auto"}
-          height="auto"
+          width={"226px"}
+          height="300px"
           src={personalImage}
           alt="Personal"
         />

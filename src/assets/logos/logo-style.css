@@ -1,0 +1,28 @@
+.html-logo {
+  color: #e44f26;
+}
+
+.css-logo {
+  color: #33a9dc;
+}
+
+.react-logo {
+  color: #80d8f7;
+  animation: reactRotation infinite 5s linear;
+}
+
+.node-logo {
+  color: green;
+}
+
+.npm-logo {
+  color: crimson;
+}
+
+.angular-logo {
+  color: #c3002f;
+}
+
+.bootstrap-logo {
+  color: #7952b3;
+}
