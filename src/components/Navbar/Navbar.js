@@ -1,11 +1,20 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../assets/A-Letter-PNG-Download-Image.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img className="logo" src={Logo} alt="Abdo Logo" />
+      <LazyLoadImage
+        effect="blur"
+        width="auto"
+        height={"auto"}
+        className="logo"
+        src={Logo}
+        alt="Abdo Logo"
+      />
       <ul className="">
         <li>
           <a href="#about">About</a>

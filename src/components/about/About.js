@@ -5,6 +5,8 @@ import personalImage from "../../assets/29906200102159.jpeg";
 import Typewriter from "typewriter-effect";
 import AbdCV from "../../assets/pdf/abdocv.pdf";
 import SkillTab from "../Skills/Skill-item/SkillTab";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const About = () => {
   return (
@@ -51,7 +53,13 @@ const About = () => {
             <SkillTab name={"Download My CV"} style={{ padding: "20px" }} />
           </a>
         </div>
-        <img src={personalImage} alt="Personal" />
+        <LazyLoadImage
+          effect="blur"
+          width={"auto"}
+          height="auto"
+          src={personalImage}
+          alt="Personal"
+        />
       </article>
     </section>
   );
