@@ -1,10 +1,10 @@
 import "./App.css";
-import Contact from "./components/contact/Contact";
-import Experience from "./components/experience/Experience";
-import Footer from "./components/footer/Footer";
-import About from "./components/about/About";
 import Navbar from "./components/Navbar/Navbar";
+import About from "./components/about/About";
 import SkillsSection from "./components/Skills/SkillsSection";
+import Experience from "./components/experience/Experience";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
