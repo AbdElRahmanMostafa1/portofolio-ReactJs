@@ -42,7 +42,7 @@ const About = () => {
           </p>
           <a
             href={AbdCV}
-            download={"AbdElRahmanMostafaCV"}
+            download={"AbdElRahman-Mostafa-CV"}
             style={{
               borderRadius: "5px",
               alignSelf: "center",
