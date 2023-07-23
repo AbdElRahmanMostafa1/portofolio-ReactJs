@@ -9,6 +9,8 @@ import AngularLogo from "../../assets/logos/AngularLogo";
 import NodeLogo from "../../assets/logos/NodeLogo";
 import NpmLogo from "../../assets/logos/NpmLogo";
 import GitLogo from "./GitLogo";
+import TypeScriptLogo from "./TypeScriptLogo";
+import NestJsLogo from "./NestJsLogo";
 
 export {
   ExpressLogo,
@@ -22,4 +24,6 @@ export {
   NodeLogo,
   NpmLogo,
   GitLogo,
+  TypeScriptLogo,
+  NestJsLogo,
 };

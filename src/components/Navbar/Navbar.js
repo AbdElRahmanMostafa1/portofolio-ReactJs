@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import Logo from "../../assets/A-Letter-PNG-Download-Image.png";
+import Logo from "../../assets/images/A-Letter-PNG-Download-Image.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 

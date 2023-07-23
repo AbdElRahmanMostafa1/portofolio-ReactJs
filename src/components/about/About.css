@@ -18,6 +18,31 @@
   display: inline;
 }
 
+.job-wrapper {
+  display: flex;
+  justify-content: space-between;            
+  flex-direction: row-reverse;
+  margin-bottom: 5px;
+}
+
+.job-title {
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.job-content {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.company-img {
+  object-fit: contain;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 @media (max-width: 700px) {
   .main-section-article {
     flex-direction: column-reverse;
@@ -31,5 +56,20 @@
   .main-section-article div p {
     margin: 20px auto;
     width: 100%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .company-img-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .job-wrapper {
+    display: block;
+  }
+
+  .company-img {
   }
 }
