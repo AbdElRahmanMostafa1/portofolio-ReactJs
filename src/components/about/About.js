@@ -1,14 +1,98 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./About.css";
 import Header from "../header/Header";
-import personalImage from "../../assets/29906200102159.jpeg";
+import personalImage from "../../assets/images/AbdoPicture.jpeg";
 import Typewriter from "typewriter-effect";
-import abdoCV from "../../assets/pdf/AbdElRahman-programming-CV.pdf";
+import abdoCV from "../../assets/pdf/AbdElRahman-CV.pdf";
 import SkillTab from "../Skills/Skill-item/SkillTab";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot, faCalendar } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
+  const experience = [
+    {
+      companyImg:
+        "https://media.licdn.com/dms/image/C4D0BAQHtEtHdE183Zg/company-logo_200_200/0/1607944766740?e=2147483647&v=beta&t=hhZ2fDqXwXBP-ao6d1fUYevSF226dZxnzlxYsoFAHSA",
+      companyName: "CryptDev",
+      jobTitle: "Frontend Engineer",
+      startDate: "July, 2022",
+      endDate: "Present",
+      companyCityLocation: "Athens",
+      companyCountryLocation: "Greece",
+      workingSite: "(Remote)",
+      techStack: [
+        "ReactJs",
+        "React Native",
+        "bootstrap",
+        "Redux toolkit",
+        "Redux",
+      ],
+    },
+    {
+      companyImg:
+        "https://media.licdn.com/dms/image/C4D0BAQH9h8GvaOxJBg/company-logo_200_200/0/1671982619348?e=1697673600&v=beta&t=-e7MLU3Q4juTFC7Bq8-5NZ1I-VaE0bfJiETOu0E7YXU",
+      companyName: "TechNatives",
+      jobTitle: "Full Stack Engineer",
+      startDate: "October, 2022",
+      endDate: "Present",
+      companyCityLocation: "Alexandria",
+      companyCountryLocation: "Egypt",
+      workingSite: "(Remote)",
+      techStack: [
+        "Angular",
+        "bootstrap",
+        "NodeJs",
+        "NestJs",
+        "TypeORM",
+        "Sequelize",
+        "Docker",
+      ],
+    },
+    {
+      companyImg:
+        "https://dominioneg.com/wp-content/uploads/2021/08/cropped-dom-01-250x200.png",
+      companyName: "Dominion Industrial Solutions",
+      jobTitle: "Full Stack Engineer",
+      startDate: "August, 2021",
+      endDate: "June, 2022",
+      companyCityLocation: "Cairo",
+      companyCountryLocation: "Egypt",
+      workingSite: "",
+      techStack: [
+        "ReactJs",
+        "bootstrap",
+        "NodeJs",
+        "Express",
+        "Mongoose",
+        "MongoDB",
+        "Robot Operating System(ROS)",
+      ],
+      brief: "Build Web Apps and integrate with AI and Machine Learning Models",
+    },
+    {
+      companyImg:
+        "https://media.licdn.com/dms/image/C4E0BAQErANnbTVg2CQ/company-logo_200_200/0/1519884215249?e=2147483647&v=beta&t=onlKxJcf8AO8VJcf3yU567zyjGx-t5lqD5DAPcXRoFc",
+      companyName: "Appgain",
+      jobTitle: "Frontend Engineer",
+      startDate: "December, 2020",
+      endDate: "July, 2021",
+      companyCityLocation: "Cairo",
+      companyCountryLocation: "Egypt",
+      workingSite: "",
+      techStack: [
+        "ReactJs",
+        "React Native",
+        "bootstrap",
+        "Redux",
+        "Redux Saga",
+      ],
+      brief:
+        "First Arabic Donation App (IKhair Dashboard), ...etc (confidential)",
+    },
+  ];
+
   return (
     <section className="main-section" id="about">
       <Header header="About Me" />
@@ -22,9 +106,9 @@ const About = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      "Frontend Developer",
-                      "Backend Developer",
-                      "Full Stack Developer",
+                      "Frontend Engineer",
+                      "Backend Engineer",
+                      "Full Stack Engineer",
                     ],
                     autoStart: true,
                     loop: true,
@@ -33,12 +117,12 @@ const About = () => {
               </span>
             }{" "}
           </h2>
-          <p style={{}}>
+          <p>
             A self-motivated IT professional with huge knowledge and proficiency
-            in HTML, CSS, JavaScript, ReactJs, NodeJs, Express (Framework for
-            NodeJs), MongoDB (Database), responsive web development and strong
-            skills and ability in writing clean and efficient code, little
-            experience with MySQL.
+            in HTML, CSS, JavaScript, ReactJs, NodeJs, Express, NestJs(Framework
+            for NodeJs), MongoDB (Database), responsive web development and
+            strong skills and ability in writing clean and efficient code,
+            little experience with MySQL.
           </p>
           <a
             href={abdoCV}
@@ -60,6 +144,97 @@ const About = () => {
           alt="Personal"
         />
       </article>
+      <Header header={"Work Experience"} />
+      <section
+        className="main-section"
+        style={{ paddingLeft: "10px", paddingRight: "10px" }}
+      >
+        {experience.map((job, index) => {
+          const {
+            companyCityLocation,
+            companyCountryLocation,
+            companyImg,
+            companyName,
+            endDate,
+            jobTitle,
+            startDate,
+            techStack,
+            workingSite,
+            brief,
+          } = job;
+          return (
+            <Fragment key={companyName}>
+              <article className="job-wrapper">
+                <div className="company-img-wrapper">
+                  <LazyLoadImage
+                    className="company-img"
+                    effect="blur"
+                    width={"100px"}
+                    height="100px"
+                    src={companyImg}
+                    alt={companyName}
+                  />
+                </div>
+
+                <div>
+                  <h2 className="">{companyName}</h2>
+                  <p className="job-title bold">{jobTitle}</p>
+                  <div className="job-content">
+                    <FontAwesomeIcon
+                      icon={faCalendar}
+                      color="brown"
+                      style={{ marginRight: "2px" }}
+                    />
+                    <span>
+                      {startDate} -- {endDate}
+                    </span>{" "}
+                    <br />
+                    <FontAwesomeIcon
+                      icon={faLocationDot}
+                      color="brown"
+                      style={{ marginRight: "2px" }}
+                    />
+                    <span>
+                      {companyCityLocation},{" "}
+                      <span className="bold">{companyCountryLocation}</span>{" "}
+                      {workingSite}
+                    </span>
+                    <br />
+                    <span className="bold">Tech Stack:</span>{" "}
+                    {techStack.map((stack, i) => (
+                      <Fragment key={stack}>
+                        {stack}
+                        {i < techStack.length - 1 && <>, </>}
+                      </Fragment>
+                    ))}
+                    {brief && (
+                      <p>
+                        <span className="bold">Brief: </span>
+                        <span> {brief} </span>
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </article>
+              {index < experience.length - 1 && (
+                <div
+                  style={{
+                    width: "90%",
+                    marginTop: "10px",
+                    marginBottom: "10px",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                    height: "2px",
+                    backgroundColor: "rgb(155 153 153)",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                ></div>
+              )}
+            </Fragment>
+          );
+        })}
+      </section>
     </section>
   );
 };

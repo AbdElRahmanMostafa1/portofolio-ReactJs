@@ -14,6 +14,8 @@ import {
   MongodbLogo,
   NpmLogo,
   GitLogo,
+  TypeScriptLogo,
+  NestJsLogo,
 } from "../../assets/logos";
 
 const SkillsSection = () => {
@@ -39,6 +41,11 @@ const SkillsSection = () => {
       name: "JavaScript",
     },
     {
+      logo: <TypeScriptLogo />,
+      iconClass: "",
+      name: "TypeScript",
+    },
+    {
       logo: <ReactLogo />,
       iconClass: "react-class",
       name: "ReactJs",
@@ -57,6 +64,11 @@ const SkillsSection = () => {
       logo: <ExpressLogo />,
       iconClass: "",
       name: "Express",
+    },
+    {
+      logo: <NestJsLogo />,
+      iconClass: "",
+      name: "NestJs",
     },
     {
       logo: <MongodbLogo />,
