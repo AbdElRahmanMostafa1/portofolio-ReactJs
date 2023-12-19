@@ -32,11 +32,11 @@ const About = () => {
     },
     {
       companyImg:
-        "https://media.licdn.com/dms/image/C4D0BAQH9h8GvaOxJBg/company-logo_200_200/0/1671982619348?e=1697673600&v=beta&t=-e7MLU3Q4juTFC7Bq8-5NZ1I-VaE0bfJiETOu0E7YXU",
+        "https://media.licdn.com/dms/image/C4D0BAQH9h8GvaOxJBg/company-logo_200_200/0/1671982620194/tech_natives_logo?e=1710979200&v=beta&t=PLCEpGF2Jlg-DKg-_GuJMG161to-0C6SJiPDXJHrL74",
       companyName: "TechNatives",
       jobTitle: "Full Stack Engineer",
       startDate: "October, 2022",
-      endDate: "Present",
+      endDate: "November, 2023",
       companyCityLocation: "Alexandria",
       companyCountryLocation: "Egypt",
       workingSite: "(Remote)",
