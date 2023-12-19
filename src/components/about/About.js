@@ -3,7 +3,7 @@ import "./About.css";
 import Header from "../header/Header";
 import personalImage from "../../assets/images/AbdoPicture.jpeg";
 import Typewriter from "typewriter-effect";
-import abdoCV from "../../assets/pdf/AbdElRahman-CV.pdf";
+import abdoCV from "../../assets/pdf/AbdElRahman-Mostafa.pdf";
 import SkillTab from "../Skills/Skill-item/SkillTab";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
