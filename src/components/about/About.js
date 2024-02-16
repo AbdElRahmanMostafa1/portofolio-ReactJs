@@ -14,11 +14,28 @@ const About = () => {
   const experience = [
     {
       companyImg:
+        "https://www.breachsecurenow.com/wp-content/uploads/2021/06/BSN-Logo-Website.png",
+      companyName: "Breach Secure Now",
+      jobTitle: "Frontend Engineer",
+      startDate: "January, 2024",
+      endDate: "Present",
+      companyCityLocation: "New York",
+      companyCountryLocation: "USA",
+      workingSite: "(Remote)",
+      techStack: [
+        "ReactJs",
+        "Material UI",
+        "Redux toolkit",
+        "Redux",
+      ],
+    },
+    {
+      companyImg:
         "https://media.licdn.com/dms/image/C4D0BAQHtEtHdE183Zg/company-logo_200_200/0/1607944766740?e=2147483647&v=beta&t=hhZ2fDqXwXBP-ao6d1fUYevSF226dZxnzlxYsoFAHSA",
       companyName: "CryptDev",
       jobTitle: "Frontend Engineer",
       startDate: "July, 2022",
-      endDate: "Present",
+      endDate: "December, 2023",
       companyCityLocation: "Athens",
       companyCountryLocation: "Greece",
       workingSite: "(Remote)",
