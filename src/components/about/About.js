@@ -14,9 +14,9 @@ const About = () => {
   const experience = [
     {
       companyImg:
-        "https://www.breachsecurenow.com/wp-content/uploads/2021/06/BSN-Logo-Website.png",
-      companyName: "Breach Secure Now",
-      jobTitle: "Frontend Engineer",
+        "https://media.licdn.com/dms/image/C4D0BAQEUMNC0bzC_Pg/company-logo_200_200/0/1654889536339?e=1724889600&v=beta&t=UjD7NRMNzGVAjgckhvGHR-nRHom6dU3ooIVcAMn4ETo",
+      companyName: "Crocosoft",
+      jobTitle: "Senior Frontend Engineer",
       startDate: "January, 2024",
       endDate: "Present",
       companyCityLocation: "New York",
@@ -49,7 +49,7 @@ const About = () => {
     },
     {
       companyImg:
-        "https://media.licdn.com/dms/image/C4D0BAQH9h8GvaOxJBg/company-logo_200_200/0/1671982620194/tech_natives_logo?e=1710979200&v=beta&t=PLCEpGF2Jlg-DKg-_GuJMG161to-0C6SJiPDXJHrL74",
+        "https://media.licdn.com/dms/image/C4D0BAQH9h8GvaOxJBg/company-logo_200_200/0/1671982620194/tech_natives_logo?e=1724889600&v=beta&t=7n8KMZK7faQavVDVhkbyJkaapzTrlrDC7Ali1--Djas",
       companyName: "TechNatives",
       jobTitle: "Full Stack Engineer",
       startDate: "October, 2022",
