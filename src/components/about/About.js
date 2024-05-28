@@ -19,8 +19,8 @@ const About = () => {
       jobTitle: "Senior Frontend Engineer",
       startDate: "January, 2024",
       endDate: "Present",
-      companyCityLocation: "New York",
-      companyCountryLocation: "USA",
+      companyCityLocation: "Cairo",
+      companyCountryLocation: "Egypt",
       workingSite: "(Remote)",
       techStack: [
         "ReactJs",
