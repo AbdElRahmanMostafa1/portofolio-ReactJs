@@ -37,7 +37,7 @@ const Contact = () => {
             <strong>Phone 1:</strong> 01122695703
           </p> */}
           <p>
-            <strong>Phone 2:</strong> 01093957807
+            <strong>Phone:</strong> 01093957807
           </p>
           <strong>Just Send me don't hesitate 😉</strong>
         </div>
