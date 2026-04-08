@@ -31,7 +31,7 @@ const Contact = () => {
         </ul>
         <div style={{ textAlign: "center", marginTop: "10px" }}>
           <p>
-            <strong>Email:</strong> abdelrahman22.mostafa@gmail.com
+            <strong>Email:</strong> abdelrahman1mostafa.developer@gmail.com
           </p>
           {/* <p>
             <strong>Phone 1:</strong> 01122695703
