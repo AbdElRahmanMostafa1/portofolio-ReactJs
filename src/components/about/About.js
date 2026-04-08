@@ -3,7 +3,7 @@ import "./About.css";
 import Header from "../header/Header";
 import personalImage from "../../assets/images/AbdoPicture.jpeg";
 import Typewriter from "typewriter-effect";
-import abdoCV from "../../assets/pdf/mostafa-alaa-cv.pdf";
+import abdoCV from "../../assets/pdf/AbdElRahman-Mostafa.pdf";
 import SkillTab from "../Skills/Skill-item/SkillTab";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -15,7 +15,7 @@ const About = () => {
     {
       companyImg:
         "https://media.licdn.com/dms/image/C4D0BAQEUMNC0bzC_Pg/company-logo_200_200/0/1654889536339?e=1724889600&v=beta&t=UjD7NRMNzGVAjgckhvGHR-nRHom6dU3ooIVcAMn4ETo",
-      companyName: "Appgain",
+      companyName: "Crocosoft",
       jobTitle: "Senior Frontend Engineer",
       startDate: "January, 2024",
       endDate: "Present",
