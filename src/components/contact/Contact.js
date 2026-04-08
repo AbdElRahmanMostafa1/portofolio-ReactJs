@@ -33,9 +33,9 @@ const Contact = () => {
           <p>
             <strong>Email:</strong> abdelrahman22.mostafa@gmail.com
           </p>
-          <p>
+          {/* <p>
             <strong>Phone 1:</strong> 01122695703
-          </p>
+          </p> */}
           <p>
             <strong>Phone 2:</strong> 01093957807
           </p>
