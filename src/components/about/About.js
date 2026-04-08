@@ -15,7 +15,7 @@ const About = () => {
     {
       companyImg:
         "https://media.licdn.com/dms/image/C4D0BAQEUMNC0bzC_Pg/company-logo_200_200/0/1654889536339?e=1724889600&v=beta&t=UjD7NRMNzGVAjgckhvGHR-nRHom6dU3ooIVcAMn4ETo",
-      companyName: "Crocosoft",
+      companyName: "Appgain",
       jobTitle: "Senior Frontend Engineer",
       startDate: "January, 2024",
       endDate: "Present",
